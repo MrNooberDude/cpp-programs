@@ -3,10 +3,11 @@ GlobalFormat Header File
 Formatting styles that work mostly everywhere
 Also includes color struct
 Made by IceandFire04
-Free to use; examples at the bottom of this file
+Free to use; examples at the bottom of this file or check the github readme
 */
 
 #include <string>
+using namespace std;
 
 struct Color {
 	int r;
@@ -88,9 +89,4 @@ formatText("Bold Text", bold)
 This line sets the text to a custom color, and the one below changes the background.
 formatText("text!", RGBCOLOR, true, {100,50,255})
 formatText("text!", BG_RGBCOLOR, true, {100,50,255})
-
-
-
-
-
 */
